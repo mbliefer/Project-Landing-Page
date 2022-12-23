@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project: Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="header">
-        <img src="#" alt="logo">
+        <div class="logo">Header Logo</div>
         <ul>
-            <li>Link One</li>
+            <li><a href="#">Link One</a></li>
             <li>Link Two</li>
             <li>Link Three</li>
         </ul>
     </div>
-    <div class="introduction"> 
-        <h1>This Website Is Awesome!</h1>
-        <p>This website has some subtext that goes 
-            here under the main title. It's smaller font 
-            and the color is lower contrast.
-        </p>
-        <button>Sign Up</button>
-        <img src="#" alt="placeholder for an image">
+    <div class="introduction">
+        <div class="intro-left">
+            <h1>This Website Is Awesome!</h1>
+            <p>This website has some subtext that goes
+                here under the main title. It's smaller font
+                and the color is lower contrast.
+            </p>
+            <button class="sign-up">Sign Up</button>
+        </div>
+        <div class="intro-right">
+            <img class="pic1" src="pic1.jpg" alt="placeholder for an image">
+        </div>
     </div>
+    <div class="information">
+        <h2>Some Random Information</h2>
+        <div class="allpics">
+            <div class="info">
+                <img class="bridge" src="bridge1.jpg" alt="pic-one">
+                <div class="text">This is some subtext under an illustration
+                    or image
+                </div>
+            </div>
+            <div class="info">
+                <img class="bridge" src="bridge2.jpg" alt="pic-two">
+                <div class="text">This is some subtext under an illustration
+                    or image
+                </div>
+            </div>
+            <div class="info">
+                <img class="bridge" src="bridge3.jpg" alt="pic-three">
+                <div class="text">This is some subtext under an illustration
+                    or image
+                </div>
+            </div>
+            <div class="info">
+                <img class="bridge" src="bridge4.jpg" alt="pic-four">
+                <div class="text">This is some subtext under an illustration
+                    or image
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="inspiration">
+        <p class="quote">This is an inspiring quote, or testimonial from a customer.
+            Maybe it's just filling up space, or maybe people will actually
+            read it. Who knows? All I know is that it looks nice.
+        </p>
+        <p class="thor">-Thor, God of Thunder</p>
+    </div>
+    <div class="container">
+        <div class="sub-container">
+            <div class="action">
+                <h3>Call to action! It's time!</h3>
+                <p class="bottom-p">Sign up for our product by clicking that button
+                    right over there!
+                </p>
+            </div>
+            <button class="sign-up-bottom">Sign Up</button>
+        </div>
+    </div>
+    <div class="footer">Copyright</div>
+
 </body>
+
 </html>

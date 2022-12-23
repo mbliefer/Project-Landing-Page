@@ -1,0 +1,162 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.header, .footer, .introduction {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 15px 200px 25px 200px;
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    display: flex;
+    margin-right: auto;
+    align-self: center;
+}
+
+ul {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.introduction {
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sign-up, .sub-container, .sign-up-bottom {
+    font-family: roboto, sans-serif;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 26px;
+}
+
+.intro-left {
+    width: 400px;
+    height: 275px;
+}
+
+.intro-right {
+    width: 400px;
+    height: 275px;
+}
+
+.pic1 {
+    height: 100%;
+    width: 100%;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.allpics {
+    display: flex;
+    gap: 75px;
+}
+
+.bridge {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    padding-bottom: 50px;
+}
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+}
+
+.quote {
+    font-family: Merriweather, serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 0;
+}
+
+.thor {
+    align-self: flex-end;
+    padding-right: 100px;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container {
+    padding: 100px 250px;
+}
+
+.sub-container { 
+    display: flex;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.action {
+    margin-right: auto;
+    margin-top: 0;
+}
+
+h3, .bottom-p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.bottom-p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.sign-up-bottom {
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
